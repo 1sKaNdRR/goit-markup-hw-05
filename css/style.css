@@ -477,7 +477,8 @@ margin-right: 120px;
     height: 40px;
 }
 .footer-subscribe{
-    display: inline;
+    display: flex;
+    flex-direction: column;
     margin-left: 80px;
 }
 .footer-subscribe-text{
@@ -508,8 +509,9 @@ margin-right: 120px;
 }
 .form-footer{
     display: flex;
+    align-items: center;
     gap: 24px;
-width: 264px;
+max-width: 264px;
 height: 40px;
 flex-shrink: 0;
 }
@@ -517,7 +519,7 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 165px;
+    max-width: 165px;
     height: 40px;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
